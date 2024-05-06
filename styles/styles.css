@@ -1,0 +1,305 @@
+body {
+  font-family: sans-serif;
+}
+
+.contenedor {
+  gap: 20px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.segmento {
+  background-color: #2e52c6c8;
+  border: 1px solid #274ba7;
+  padding: 20px;
+  text-align: center;
+  height: 99%;
+  width: 99%;
+}
+
+.encabezado {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* Estilos generales */
+body {
+font-family: Arial, sans-serif;
+background-color: #f5f5f5;
+color: #333;
+}
+
+img {
+width: 20%;
+margin: 0 auto;
+padding: 20px;
+box-shadow: 0 2px 5px rgba(11, 11, 11, 0.1);
+display: flex; /* Método flexbox */
+justify-content: center;
+align-items: center;
+}
+
+img {
+margin: auto; /* Método margin: auto */
+}
+
+div {
+display: flex;
+flex-direction: row; /* Orientación horizontal */
+flex-wrap: wrap; /* Permite que los elementos se salten de línea si es necesario */
+justify-content: space-around; /* Distribuye los elementos con espacio entre ellos */
+align-items: center; /* Alinea los elementos verticalmente en el centro */
+}
+
+div{
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 20px;
+}
+
+.container {
+width: 90%;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+div.bloques {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+div.bloque {
+width: 30%;
+padding: 10px;
+border: 1px solid #2c4783b9;
+text-align: center;
+}
+
+h1 {
+font-size: 24px;
+margin-bottom: 20px;
+display: contents;
+}
+
+div {
+margin: 0;
+}
+
+h1 {
+color: #ff4133; /* Azul */
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+}
+
+BODY {font-family: 'Headland One', serif;}
+
+H1 {font-weight: 900;}
+
+#bizcanvas {
+border: 3px solid black;
+width: 100%;
+}
+
+#bizcanvas td {
+vertical-align: top;
+height: 200px;
+width: 200px;
+padding: 6px;
+}
+
+
+#bizcanvas H4 {
+font-weight: 700;
+font-size: 1em;
+}
+
+#bizcanvas H5 {
+font-weight: 700;
+font-size: 0.7em;
+}
+
+#bizcanvas p {
+font-weight: 300;
+font-size: 0.8em;
+}
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+color: #333;
+}
+
+.contenedor {
+max-width: 1200px;
+margin: 20px auto;
+padding: 20px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+text-align: center;
+color: #0275d8;
+}
+
+#bizcanvas {
+width: 100%;
+border-collapse: collapse;
+}
+
+#bizcanvas,
+#bizcanvas th,
+#bizcanvas td {
+border: 1px solid #ddd;
+}
+
+#bizcanvas th,
+#bizcanvas td {
+text-align: center;
+padding: 15px;
+}
+
+#bizcanvas tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+#bizcanvas tr:hover {
+background-color: #ddd;
+}
+
+#bizcanvas th {
+background-color: #0275d8;
+color: white;
+}
+
+.segmento {
+background-color: #f9f9f9;
+padding: 10px;
+margin: 5px;
+border-radius: 4px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.segmento .encabezado {
+font-weight: bold;
+color: #0275d8;
+}
+
+.segmento .encabezado a {
+color: #0275d8;
+text-decoration: none;
+}
+
+.segmento .encabezado a:hover {
+text-decoration: underline;
+}
+/* styles.css */
+.canvas-container {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 10px;
+}
+
+.segment {
+background-color: #f7f7f7;
+padding: 20px;
+border: 1px solid #ddd;
+}
+
+.segment header {
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+#bizcanvas {
+background-color: #333;
+display: grid; 
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+gap: 0px;
+height: 100%;
+}
+
+#segmento-socios-clave {
+grid-row-start: 1;
+grid-column-start: 1;
+grid-row-end: 3;
+grid-column-end: 2;
+}
+
+#segmento-actividades-clave {
+grid-row-start: 1;
+grid-column-start: 2;
+grid-row-end: 2;
+grid-column-end: 3;
+background-size: 117% 111%;
+}
+
+#segmento-recursos-clave {
+grid-row-start: 2;
+grid-column-start: 2;
+grid-row-end: 3;
+grid-column-end: 3;
+}
+
+#segmento-proposicion-valor {
+grid-row-start: 1;
+grid-column-start: 3;
+grid-row-end: 3;
+grid-column-end: 4;
+}
+
+#segmento-relaciones-con-clientes {
+grid-row-start: 1;
+grid-column-start: 4;
+grid-row-end: 2;
+grid-column-end: 5;
+}
+
+#segmento-canales {
+grid-row-start: 2;
+grid-column-start: 4;
+grid-row-end: 3;
+grid-column-end: 5;
+}
+
+#segmento-segmentos-de-clientes {
+grid-row-start: 1;
+grid-column-start: 5;
+grid-row-end: 3;
+grid-column-end: 6;
+}
+
+#segmento-estructura-de-costos {
+grid-row-start: 3;
+grid-column-start: 1;
+grid-row-end: 4;
+grid-column-end: 4;
+}
+
+#segmento-flujos-de-ingresos {
+grid-row-start: 3;
+grid-column-start: 4;
+grid-row-end: 4;
+grid-column-end: 6;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: #0275d8;
+}
